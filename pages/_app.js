@@ -12,6 +12,7 @@ function MyApp({ Component, pageProps }) {
   }, []);
   return (
     <NoSsr>
+    
       <Layout>
         <Component {...pageProps} />
       </Layout>
